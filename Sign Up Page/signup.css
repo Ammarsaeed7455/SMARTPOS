@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'gilroy';
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+*{
+    font-family: 'gilroy';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* #FFCA40 = Yellow, #C8161D = Red, #000000 = Black, #808080 = grey, #F8F8F7 = White */
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.big-img{
+    background-color: #f6f5f5; 
+    width: 50%;
+    height: 100%;
+} 
+.log-in-page{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff ;
+}
+.log-in-page .log-in{
+    width: 65%;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+.log-in h6{
+    font-size: 13px;
+    font-weight: 100;
+    color: #00000075;
+}
+.log-in h6 a{
+    color: #0091ff;
+}
+.log-in input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.047);
+}
+.log-in button{
+   padding: 13px;
+   outline: none;
+   border: none;
+   background-color: #FFCA40;
+   color: black;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: .5s;
+}
+.log-in button:hover{
+    background-color: #ffc940ab;
+}
+.log-in h2{
+    color: #00000038;
+    text-align: center;
+}
+.log-in .two-buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.log-in .two-buttons button{
+    padding: 13px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.184);
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.log-in .two-buttons button i{
+    margin: 6px;
+    font-size: 20px;
+}
+.log-in .terms {
+    font-size:13px ;
+    color: #00000075;
+}
+.log-in .terms a{
+    color: #0091ff;
+    text-decoration: underline;
+}
+.div{
+    text-align: center;
+    margin-top: 40px;
+    color: #00000075;
+    font-size: 14px;
+}
